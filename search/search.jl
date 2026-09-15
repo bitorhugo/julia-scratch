@@ -24,8 +24,7 @@ end
 function h(node, target, coords)
     xn, yn = coords[node]
     xt, yt = coords[target]
-    return sqrt(((xt - xn) * (xt - xn)) +
-                ((yt - yn) * (yt - yn)))
+    return sqrt((xt - xn)^2 + (yt - yn)^2)
 end
 
 function astar(g::Dict{T, Vector{Tuple{T, W}}},
