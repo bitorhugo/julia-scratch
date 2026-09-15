@@ -1,0 +1,5 @@
+#+TITLE: julia scratch
+
+A collection of personal writings in julia.
+
+Each directory is a category of writings.
